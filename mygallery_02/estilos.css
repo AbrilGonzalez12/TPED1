@@ -13,40 +13,20 @@
 body{
     background-color: black;
     margin: 50px;
-}
-
-header{
-    background-color: black;
+    color: white;
 }
 
 h1{
     font-size: 100px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
     text-align: center;
     padding-bottom: 40px;
     letter-spacing: 5px;
 }
 
-#section1{
-    opacity: 90%;
-    padding: 30px;
-}
-
-#section2{
-    padding: 30px;
-    background-color: white;
-}
-
-#section3{
-    opacity: 90%;
-    padding: 30px;
-}
-
 img{
-    width: 33%;
+    width: 500px;
     height: auto;
-    padding-left: 10px;
 }
 
 a:hover img{filter: none;}
@@ -60,3 +40,18 @@ a:hover img{filter: none;}
 .invert {filter: invert(100%);}
 .saturate {filter: saturate(7); padding-bottom: 65px;}
 .sepia {filter: sepia(100%);}
+
+#one{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.medio{
+    padding: 50px;
+}
+
+.medio2{
+    padding-top: 50px;
+}
