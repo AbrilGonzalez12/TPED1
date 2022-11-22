@@ -20,8 +20,15 @@ h1{
 
 h3{
     font-size: 30px;
-    color: white;
+    color: yellow;
     padding-left: 1000px;
+}
+
+p{
+    color: yellow;
+    font-size: 10px;
+    padding-left: 955px;
+    padding-top: 10px;
 }
 
 ol{
@@ -29,9 +36,13 @@ ol{
 }
 
 li{
-    color: yellow;
+    color: purple;
     font-size: 15px;
-    padding-right: 755px;
     line-height: 50px;
     text-align: right;
+    padding-right: 755px;
+}
+
+a:link, a:visited, a:active{
+    text-decoration:none;
 }
