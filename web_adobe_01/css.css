@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: blueviolet;*/
+}
+
+header li{
+    display: inline-block;
+    padding: 2em;
+}
+section{
+
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-image: url("fondo-1400x860.jpg");
+    background-color:blueviolet;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+
+#Izquierda{
+position: absolute;
+top:20%;
+left:10%;
+width: 40%;
+height: 80%;
+background-color: blue;
+
+display: flex;
+flex-flow: column nowrap;
+justify-content: flex-start;
+align-items: flex-start;
+
+font-size: 2em;
+}
+
+#Derecha{
+    position: absolute;
+    right:10%;
+    bottom:0;
+    width: 40%;
+    height: 80%;
+    background-color:brown;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    font-size: 2em;
+    }
+
+ footer ul{
+
+    height: 8em;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
