@@ -9,6 +9,7 @@ main{
     margin-left: auto;
     margin-right: auto;
 }
+
 header{
     height: 10%;
     display: flex;
@@ -21,8 +22,8 @@ header li{
     display: inline-block;
     padding: 2em;
 }
-section{
 
+section{
     height: 80vh;
     width: 100%;
     position: relative;
@@ -33,19 +34,19 @@ section{
 }
 
 #Izquierda{
-position: absolute;
-top:20%;
-left:10%;
-width: 40%;
-height: 80%;
-background-color: blue;
+    position: absolute;
+    top:20%;
+    left:10%;
+    width: 40%;
+    height: 80%;
+    background-color: blue;
 
-display: flex;
-flex-flow: column nowrap;
-justify-content: flex-start;
-align-items: flex-start;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
 
-font-size: 2em;
+    font-size: 2em;
 }
 
 #Derecha{
@@ -61,10 +62,9 @@ font-size: 2em;
     align-items: flex-start;
 
     font-size: 2em;
-    }
+}
 
- footer ul{
-
+footer ul{
     height: 8em;
     background-color: black;
     color: white;

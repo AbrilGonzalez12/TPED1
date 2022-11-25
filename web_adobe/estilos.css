@@ -121,6 +121,12 @@ a:link, a:visited, a:active{
     padding-right: 5px;
 }
 
+#paleta{
+    padding-top: 5px;
+    width: 160px;
+    height: 35px;
+}
+
 .icono{
     width: auto;
     height: 40px;
