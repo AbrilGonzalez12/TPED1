@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+	background-color: rgb(255, 241, 241);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    overflow: hidden;
+    /* position relative;*/
+    font-size: 0.8em;
+}
+
+nav p{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 4vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: rgb(243, 103, 106);
+}
+
+nav ul{
+    width: 50%;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+    font-size: 1em;
+}
+
+li{
+    /*display inline;*/
+    padding-right: 5%;
+    position: relative;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    font-weight: bold;
+    color: rgb(109, 24, 84);
+}
+
+.boton:link{
+    background-color: rgb(243, 103, 106);
+    border-color: rgb(243, 103, 106);
+    width: 100%;
+    color: ghostwhite;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.boton:visited{
+    background-color:rgb(243, 103, 106);
+	border-color: rgb(243, 103, 106);
+	width: 100%;
+	color: ghostwhite;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+
+article{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#izq{
+    width: 50%;
+    height: 80vh;
+    padding: 4vh;
+    margin: 4vh;
+    text-align: center;
+    background-color: rgb(249, 247, 250);
+    border-radius: 20px;
+}
+
+#der{
+    width: 50%;
+    height: 100vh;
+    padding: 15vh 35vh 5vh 5vh;
+    /*top right bottom left;*/
+    text-align: left;
+}
+
+.txt1{
+    background-color: black;
+    color: white;
+    font-size: 0.8em;
+    width: 16vw;
+	padding: 3%;
+}
+
+#der h2{
+    font-size: 1.4em;
+	font-weight: bold;
+	padding-top: 10%;
+}
+
+.txt2{
+    margin-top: 5%;
+	margin-bottom: 20%;
+	font-size: 0.8em;
+	color: dimgray;
+	line-height: 1.8em;
+}

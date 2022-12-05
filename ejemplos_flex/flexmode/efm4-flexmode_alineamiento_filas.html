@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Flex Mode: alineamiento</title>
+    
+    <style type="text/css">
+        * {
+            margin: 0; 
+            padding: 0;
+        }
+        body {
+            background-color: #DDFFCC;
+        }
+        #pagina {
+            background-color: white;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5px;
+        }
+        .flexItem {
+            display: flex;
+            margin: 5px;
+            background-color: grey;
+        }
+        .caja1 {
+            width: 80px;
+        }
+        .caja2 {
+            width: 120px;
+            font-size: 2em;
+        }
+        .caja3 {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="pagina">
+        <h1>Ejemplos flex mode: alineamiento (filas)</h1>
+        <div>
+            <p>La anchura de la página es de 500px</p>
+            <h2>align-items: flex-start, flex-direction: row</h2>
+            <div style="display:flex; flex-direction: row; align-items: flex-start; height: 200px;">
+                <div class="flexItem caja1">
+                    Caja 1, 80x80
+                </div>
+                <div class="flexItem caja2">
+                    Caja 2, 120x120
+                </div>
+                <div class="flexItem caja3">
+                    Caja 3, 100x100
+                </div>            
+            </div>
+            <hr>
+            <h2>justify-content: flex-end, flex-direction: row</h2>
+            <div style="display:flex; flex-direction: row; align-items: flex-end; height: 200px;">
+                <div class="flexItem caja1">
+                    Caja 1, 80x80
+                </div>
+                <div class="flexItem caja2">
+                    Caja 2, 120x120
+                </div>
+                <div class="flexItem caja3">
+                    Caja 3, 100x100
+                </div>            
+            </div>
+            <hr>            
+            <h2>justify-content: stretch, flex-direction: row</h2>
+            <p>Para que funcione las cajas no tienen que tener height</p>
+            <div style="display:flex; flex-direction: row; align-items: stretch; height: 200px;">
+                <div class="flexItem caja1">
+                    Caja 1, 80x80
+                </div>
+                <div class="flexItem caja2">
+                    Caja 2, 120x120
+                </div>
+                <div class="flexItem caja3">
+                    Caja 3, 100x100
+                </div>            
+            </div>
+            <hr>  
+            <h2>justify-content: baseline, flex-direction: row</h2>
+            <div style="display:flex; flex-direction: row; align-items: baseline; height: 200px;">
+                <div class="flexItem caja1">
+                    Caja 1
+                </div>
+                <div class="flexItem caja2">
+                    Caja 2
+                </div>
+                <div class="flexItem caja3">
+                    Caja 3
+                </div>            
+            </div>            
+        </div>
+    </div>
+</body>
+
+</html>

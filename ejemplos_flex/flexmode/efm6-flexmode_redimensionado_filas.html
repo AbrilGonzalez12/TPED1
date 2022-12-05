@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Flex Mode: redimensionamiento</title>
+    
+    <style type="text/css">
+        * {
+            margin: 0; 
+            padding: 0;
+        }
+        body {
+            background-color: #DDFFCC;
+        }
+        #pagina {
+            background-color: white;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5px;
+        }
+        .flexItem {
+            margin: 5px;
+            background-color: grey;
+        }
+        .caja1 {
+            width: 80px;
+            height: 80px;            
+        }
+        .caja2 {
+            width: 120px;
+            height: 120px;            
+        }
+        .caja3 {
+            width: 100px;
+            height: 100px;            
+        }
+        .noCrezcas {
+            flex-grow: 0;
+        }
+        .tam1 {
+            flex-grow: 1;
+        }
+        .tam2 {
+            flex-grow: 2;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="pagina">
+        <h1>Ejemplos flex mode (filas)</h1>
+        <div>
+            <h2>flex-grow: 0</h2>
+            <div style="display:flex; flex-direction: row;">
+                <div class="flexItem caja1 noCrezcas">
+                    Caja 1, 80x80
+                </div>
+                <div class="flexItem caja2 noCrezcas">
+                    Caja 2, 120x120
+                </div>
+                <div class="flexItem caja3 noCrezcas">
+                    Caja 3, 100x100
+                </div>            
+            </div>
+            <hr>
+            
+            <h2>flex-grow: 1, 2, 1</h2>
+            <div style="display:flex; flex-direction: row;">
+                <div class="flexItem caja1 tam1">
+                    Caja 1, 80x80
+                </div>
+                <div class="flexItem caja2 tam2">
+                    Caja 2, 120x120
+                </div>
+                <div class="flexItem caja3 tam1">
+                    Caja 3, 100x100
+                </div>            
+            </div>            
+        </div>
+    </div>
+</body>
+
+</html>
