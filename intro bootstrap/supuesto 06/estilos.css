@@ -8,3 +8,31 @@ body{
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#c01{
+    background-color: darkmagenta;
+    height: 50px;
+    color: white;
+}
+
+#c02{
+    background-color: blueviolet;
+    height: 600px;
+    color: white;
+}
+
+#c03{
+    background-color: yellow;
+    height: 600px;
+}
+
+#c04{
+    background-color: palevioletred;
+    height: 50px;
+    color: white;
+}
+
+#c05{
+    background-color: cyan;
+    height: 700px;
+}
