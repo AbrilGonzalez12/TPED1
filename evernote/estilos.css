@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    padding-top: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: darkgrey;
+    border-bottom-width: 2px;
+}
+
+#c01{
+   
+}
+
+#c02{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#c02 ul li{
+    display: inline-block;
+    list-style-type: none;
+    color: rgb(126, 170, 52);
+}
+
+#midli{
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-color: rgb(126, 170, 52);
+    border-right-color: rgb(126, 170, 52);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#c03{
+
+}
+
+#c03 ul li{
+    list-style-type: none;
+    color: rgb(126, 170, 52);
+}
+
+#c04{
+    padding-top: 100px;
+    border-bottom-style: solid;
+    border-bottom-color: darkgrey;
+    border-bottom-width: 2px;
+}
+
+#c04 h1{
+    color: rgb(59, 147, 157);
+    font-size: 30pt;
+}
+
+#c04 p{
+    font-size: 15pt;
+}
+
+#button1{
+    background-color: white;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(92, 141, 88);
+    border-radius: 25%;
+    font-weight: bold;
+}
+
+#button2{
+    background-color: white;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(92, 141, 88);
+    border-radius: 25%;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+#c04 a{
+    padding-left: 1000px;
+    color: rgb(109, 170, 52);
+    font-size: 15pt;
+}
+
+#c04 a:hover{
+    text-decoration: none;
+}
+
+#c05{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom-style: solid;
+    border-bottom-color: darkgrey;
+    border-bottom-width: 2px;
+}
+
+#c06{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+#c06 h1{
+    font-size: 15pt;
+}
+
+#c06 p{
+    font-size: 10pt;
+}
+
+footer{
+    border-top-style: solid;
+    border-top-color: darkgrey;
+    border-top-width: 2px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#c07{
+
+}
+
+#c07 h1{
+    font-size: 25pt;
+}
+
+#c07 p{
+    font-size: 10pt;
+}
+
+#c08{
+
+}
+
+#c08 p{
+    text-align: center;
+    font-size: 10pt;
+}
+
+#button3{
+    background-color: darkgrey;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25%;
+    font-weight: bold;
+}

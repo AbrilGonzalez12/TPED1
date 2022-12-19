@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#c01{
+    background-color: darkmagenta;
+    height: 15vh;
+}
+
+#c01{
+   background-color: blueviolet;
+    height: 70vh; 
+}
+
+#c03{
+    background-color: yellow;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+    overflow: hidden;
+}
+
+#caja{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin: 1%;
+    color: black;
+}
