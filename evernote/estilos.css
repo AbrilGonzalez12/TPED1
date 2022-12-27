@@ -107,11 +107,12 @@ header{
 
 #c06{
     display: flex;
-    flex-direction: row ;
     flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #c06 h1{
@@ -120,6 +121,10 @@ header{
 
 #c06 p{
     font-size: 10pt;
+}
+
+.caja{
+    width: 28%;
 }
 
 footer{
@@ -143,7 +148,10 @@ footer{
 }
 
 #c08{
-
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #c08 p{
