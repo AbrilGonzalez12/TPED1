@@ -3,3 +3,21 @@
     margin: 0;
     padding: 0;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background-color: black;
+}
+
+#box1 h1{
+    color: white;
+    text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+}

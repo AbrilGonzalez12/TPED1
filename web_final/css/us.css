@@ -4,28 +4,27 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+
 body{
     background-color: black;
-}
-
-#caja1{
-    margin-top: 50px;
-    margin-bottom: 80px;
-}
-
-#caja2{
-    margin-top: 50px;
-    margin-bottom: 80px;
-}
-
-#caja3{
-    margin-top: 50px;
-    margin-bottom: 80px;
 }
 
 .container{
     position: relative;
     width: 80%;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
 }
   
 .overlay{
@@ -42,14 +41,14 @@ body{
 }
 
 .container:hover .overlay{
-    opacity: 90%;
+    opacity: 70%;
 }
   
 .text{
     color: black;
     font-weight: bold;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-family: 'Reenie Beanie', cursive;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -59,37 +58,22 @@ body{
     text-align: center;
 }
 
-.caja4{
-
+#demo{
+    margin-top: 50px;
 }
 
-#caja5{
-   
-}
-
-#caja6{
-    
-}
-
-#caja7{
-   
-}
-
-#caja8{
-    margin-bottom: 50px;
-}
-
-#caja9{
-    
-}
-
-#caja10{
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-
-#caja10 h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-    color: white;
+#box1 h1{
+    color: red;
     text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+#box2 h1{
+    color: red;
+    text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+footer p{
+    font-size: 12px;
 }
