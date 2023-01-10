@@ -9,37 +9,48 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1{
+#c01{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+#c01 h1{
     font-size: 200px;
+    font-weight: bold;
     color: white;
-    padding-top: 10px;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-bottom: 20px;
 }
 
-div{
-    padding-top: 10px;
-    padding-left: 70px;
-    padding-right: 70px;
-}
-
-h3{
+#c01 h3{
     font-size: 30px;
+    font-weight: bold;
     color: yellow;
 }
 
-p{
+#c01 p{
     color: yellow;
     font-size: 10px;
-    padding-top: 10px;
 }
 
-ol{
-    padding-bottom: 30px;
+#c02{
+    height: 600px;
 }
 
-li{
+
+#c02 li{
+    list-style-type: none;
+    color: purple;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: right;
+    padding-right: 350px;
+}
+
+#c03{
+    height: 600px;
+}
+
+#c03 li{
+    list-style-type: none;
     color: purple;
     font-size: 15px;
     line-height: 50px;
