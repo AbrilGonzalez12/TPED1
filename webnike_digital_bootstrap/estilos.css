@@ -9,54 +9,9 @@ body{
     letter-spacing: 2px;
 }
 
-header{
-    background-image: url(../img/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-header p{
-    color: grey;
-}
-
-section{
-   padding-left: 100px;
-}
-
-section h1{
-    font-size: 50pt;
-    line-height: 130px;
-    font-weight: lighter;
-}
-
-section h2{
-    font-weight: lighter;
-    font-size: 30px;
-    line-height: 0.1;
-    color: darkgrey;
-    padding-top: 30px;
-}
-
-section p{
-    font-size: 30px;
-    font-weight: lighter;
-    line-height: 60px;
-}
-
-#parrafo1{
-    padding-top: 200px;
-    padding-bottom: 30px;
-}
-
-#parrafo2{
-    padding-bottom: 230px;
-}
-
-section ul{
+nav ul{
     list-style-type: none;
-    font-weight: lighter;
     line-height: 2.5;
-    color: grey;
     width: 200%;
 }
 
@@ -66,14 +21,34 @@ section ul{
 
 .subra :hover{
     text-decoration: underline;
-    color: red;
+}
+
+section{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+section h1{
+    font-size: 50pt;
+    line-height: 80px;
+}
+
+section p{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 10pt;
+    line-height: 30px;
 }
 
 footer{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer li{
     list-style-type: none;
-    font-size: xx-large;
     line-height: 2;
     color: white;
-    background-color: black;
-    padding: 400px;
+    padding-left: 70px;
 }
